@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  margin-bottom: 60px;
+  max-width: 1280px;
+}
+.img {
+  width: 50%;
+}
+.positon {
+  position: relative;
+}
+.abs {
+  position: absolute;
+  top: 76px;
+  left: 44px;
+  width: 31%;
+}
+.content {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(200, 133, 10, 0.2);
+}
+.content h1 {
+  color: rgb(35, 98, 193);
+}
